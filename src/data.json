@@ -1,0 +1,9 @@
+[
+    { "id": 1, "title": "rice", "qty":0, "price":1200},
+    { "id": 2, "title": "fruits", "qty":0, "price":120},
+    { "id": 3, "title": "vegetables", "qty":0, "price":30},
+    { "id": 4, "title": "oils", "qty":0, "price":120},
+    { "id": 5, "title": "dry fruits", "qty":0, "price":100},
+    { "id": 6, "title": "Mask", "qty":0, "price":20},
+    { "id": 7, "title": "Sanitizer", "qty":0, "price":50}
+]

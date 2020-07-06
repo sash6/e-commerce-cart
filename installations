@@ -1,0 +1,5 @@
+//creation of new project
+ng new project-name
+//creation of new component
+
+ng add @angular/material

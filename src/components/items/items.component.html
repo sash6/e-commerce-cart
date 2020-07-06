@@ -1,0 +1,22 @@
+<div class="mainDiv">
+  <div>
+    <div style="text-align: center;font-size: 25px;font-weight: 600;">Items List</div>
+    <div style="text-align: end;margin-bottom: 50px;">
+     
+      <p>
+        <mat-icon  style="font-size: 25px;cursor: pointer;" matBadge={{itemsCount}} matBadgeColor="primary" (click)="onCartClick()">shopping_cart</mat-icon>                
+      </p>
+      
+    </div>
+  </div>
+  <div *ngFor="let item of items; let i = index; ">
+    <div class="itemDiv">
+      {{item.title}}
+      <span style="float:right">
+        <button (click)="itemDecrease(item,i)">-</button>
+        <button>{{item.qty}}</button>
+        <button (click)="itemIncrease(item, i)">+</button>
+      </span>
+    </div>
+  </div>
+</div>
